@@ -17,8 +17,6 @@ const App = () => (
       flexDirection: "column",
       position: "relative",
       zIndex: 0,
-
-      background: "#0B0D0E"
     }}
   >
     <Router>
