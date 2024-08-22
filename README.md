@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+# StreamPadWeb
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **StreamPadWeb** repository! This repo contains the source code for the official website of the StreamPad project, an open-source tool designed to empower streamers with customizable controls.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Currently, this repository hosts a "coming soon" teaser website for the StreamPad project. Future updates will bring more functionality, including project information, community resources, and documentation.
 
-## Expanding the ESLint configuration
+You can check out the live teaser site here: [StreamPad Website](https://streampad.website)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## What is StreamPad?
 
-- Configure the top-level `parserOptions` property like this:
+StreamPad is an open-source project that provides streamers with a customizable control interface to enhance their streaming experience. The project is in active development and will soon be offering plugins and integrations for popular streaming platforms like OBS and Twitch.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Stay Connected
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Follow the progress and get involved in the StreamPad project:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- 💻 **GitHub**:
+  - [StreamPad Repo](https://github.com/Gregorein/StreamPad)
+  - [StreamPadCore Repo](https://github.com/Gregorein/StreamPadCore)
+  - [StreamPadWeb Repo](https://github.com/Gregorein/StreamPadWeb)
+  
+- 🐦 **Twitter**: Follow [@Gregorein](https://x.com/Gregorein) for project updates, sneak peeks, and more!
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## License
+
+This repository is licensed under the **GNU General Public License (GPL)**. See the [LICENSE](./LICENSE) file for more information.
+
+---
+
+Thank you for checking out StreamPad! Stay tuned for more updates as we continue building a powerful tool for streamers everywhere.
