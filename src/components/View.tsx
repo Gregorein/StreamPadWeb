@@ -20,7 +20,7 @@ const View = ({
 
 	return (
 		<Box
-			component="main"
+			component="div"
 			sx={{
 				flex: 1,
 				display: "flex",

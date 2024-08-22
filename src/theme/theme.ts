@@ -21,7 +21,7 @@ const extendedTheme = extendTheme({
 	fontFamily: {
 		display: "Roboto",
 		body: "Roboto",
-		code: "Fira Code"
+		code: "Fira Code Variable"
 	},
 	breakpoints: {
 		values: breakpoints as unknown as { mobile: number; tablet: number; laptop: number; desktop: number; } | undefined

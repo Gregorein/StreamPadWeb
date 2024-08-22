@@ -10,7 +10,7 @@ const Home = () => {
 	const { over } = useMediaQuery()
 
 	const headerStyle: SxProps = {
-		fontSize: over.tablet ? 96 : 72,
+		fontSize: over.tablet ? 96 : 48,
 		fontWeight: 50,
 		color: "white",
 
@@ -31,7 +31,7 @@ const Home = () => {
 	}
 
 	const codeStyle: SxProps = {
-		fontFamily: "Fira Code",
+		fontFamily: "Fira Code Variable",
 		fontSize: over.tablet ? 24 : 16,
 
 		color: "white",
@@ -96,7 +96,7 @@ const Home = () => {
 
 				<Typography sx={codeStyle}>$ streamPad --info</Typography>
 				<Typography level="body-md" sx={textStyle}>
-					Stream controls for streamers, built by streamers,
+					Stream controls for streamers, built&nbsp;by&nbsp;streamers,
 					<br />
 					open-source & customizable.
 				</Typography>
