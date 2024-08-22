@@ -53,7 +53,7 @@ const Home = () => {
 					display: "flex",
 					flex: 1,
 
-					gap: over.tablet ? 0 : 1,
+					gap: over.tablet ? 1 : 2,
 
 					flexDirection: "column",
 					justifyContent: "center",
