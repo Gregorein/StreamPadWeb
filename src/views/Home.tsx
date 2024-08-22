@@ -10,7 +10,7 @@ const Home = () => {
 	const { over } = useMediaQuery()
 
 	const headerStyle: SxProps = {
-		fontSize: over.tablet ? 96 : 48,
+		fontSize: over.tablet ? 96 : 36,
 		fontWeight: 50,
 		color: "white",
 
@@ -18,7 +18,7 @@ const Home = () => {
 	}
 
 	const textStyle: SxProps = {
-		fontSize: over.tablet ? 24 : 21,
+		fontSize: over.tablet ? 24 : 18,
 		fontWeight: 400,
 		color: "white",
 
@@ -32,7 +32,7 @@ const Home = () => {
 
 	const codeStyle: SxProps = {
 		fontFamily: "Fira Code Variable",
-		fontSize: over.tablet ? 24 : 16,
+		fontSize: over.tablet ? 24 : 14,
 
 		color: "white",
 		mixBlendMode: "overlay",
@@ -53,7 +53,7 @@ const Home = () => {
 					display: "flex",
 					flex: 1,
 
-					gap: over.tablet ? 1 : 3,
+					gap: over.tablet ? 1 : 2,
 
 					flexDirection: "column",
 					justifyContent: "center",
