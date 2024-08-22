@@ -3,7 +3,6 @@ import { SxProps } from "@mui/joy/styles/types"
 import Background from "components/Background"
 import View from "components/View"
 
-import splash from "public/splash.png"
 import { transition } from "utils/transition"
 import useMediaQuery from "utils/useMediaQuery"
 
@@ -68,7 +67,7 @@ const Home = () => {
 						inset: 0,
 						zIndex: -1,
 
-						backgroundImage: `url(${splash})`,
+						backgroundImage: `url(/splash.png)`,
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 						backgroundRepeat: "no-repeat",

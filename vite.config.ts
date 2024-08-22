@@ -11,8 +11,7 @@ export default defineConfig({
       theme: resolve("src/theme"),
       utils: resolve("src/utils"),
       views: resolve("src/views"),
-      assets: resolve("src/assets"),
-      public: resolve("public")
+      assets: resolve("src/assets")
     }
   }
 })
