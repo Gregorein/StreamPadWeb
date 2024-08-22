@@ -6,6 +6,8 @@ import { CssVarsProvider } from '@mui/joy'
 
 import "normalize-css"
 
+import './index.css'
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <CssVarsProvider defaultMode="dark">
