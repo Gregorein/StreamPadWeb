@@ -13,6 +13,5 @@ export default defineConfig({
       views: resolve("src/views"),
       assets: resolve("src/assets")
     }
-  },
-  base: "/StreamPadWeb/"
+  }
 })

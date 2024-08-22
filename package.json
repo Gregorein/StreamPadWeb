@@ -3,10 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://gregorein.github.io/StreamPadWeb",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "deploy": "yarn build && gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -16,7 +17,6 @@
     "@fontsource-variable/fira-code": "^5.0.19",
     "@fontsource/roboto": "^5.0.14",
     "@mui/joy": "^5.0.0-beta.48",
-    "gh-pages": "^6.1.1",
     "normalize-css": "^2.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
